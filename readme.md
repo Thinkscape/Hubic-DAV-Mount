@@ -5,18 +5,18 @@
 A small script to mount your Hubic account using davfs2
 
 Based on a pythons script by Nicolas P  
-Based on a perl script written by GR  
->	(thanks to GR for having found the ws authentification trick)   
+Based on a perl script written by GR    
+  (thanks to GR for having found the ws authentification trick)   
 
 Usage:  
->	sudo hubic.py username password mount_point
+	sudo hubic.py username password mount_point
 
 Node: This is NOT a DropBox-like setup!  
 Davfs accesses are remote only, making them very slow on regular usage.
 
 My setup:  
->	hubic.py launched in initd. at startup, mounted on /mnt/hubic  
->	Using lsync.d to sync locally to ~/hubic   
+	hubic.py launched in initd. at startup, mounted on /mnt/hubic  
+	Using lsync.d to sync locally to ~/hubic   
 
 
 
